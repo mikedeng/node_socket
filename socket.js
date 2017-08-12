@@ -8,8 +8,7 @@ var countUp,
 	app      = express(),
 	server   = http.createServer(app),
 	io 			 = socketIo.listen(server),
-	watchMap = {},
-	countIdx = 0
+	watchMap = {}
 ;
 
 setWatch = function(url_path, file_type){

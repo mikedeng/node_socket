@@ -1,4 +1,9 @@
-
+mongod.lock
+storage.bson
+WiredTiger*
+diagnostic.data/
+*.turtle
+*.wt
 gs
 logs
 *.log

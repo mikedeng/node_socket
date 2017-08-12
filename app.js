@@ -9,7 +9,6 @@ var
  routes 				= require('./routes'),
  app            = express(),
  server         = http.createServer(app)
- countIdx			  = 0
 ;
 
 switch(app.get('env')) {
