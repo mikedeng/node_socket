@@ -3,8 +3,8 @@
 	"properties": {
 		"_id": {
 			"type": "string",
-			"minLength": 25,
-			"maxLength": 25
+			"minLength": 24,
+			"maxLength": 24
 		},
 		"name": {
 			"type": "string",

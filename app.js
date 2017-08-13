@@ -6,7 +6,7 @@ var
  bodyParser     = require('body-parser'),
  methodOverride = require('method-override'),
  errorHandler   = require('errorhandler'),
- routes 				= require('./routes'),
+ routes 				= require('./lib/routes'),
  app            = express(),
  server         = http.createServer(app)
 ;
