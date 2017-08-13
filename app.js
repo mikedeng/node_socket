@@ -19,7 +19,7 @@ switch(app.get('env')) {
 	default:
 		app.use(bodyParser());
 		app.use(methodOverride());
-		app.use(express.static(__dirname + '/public'));
+		app.use(express.static(__dirname + '/'));
 	break;
 }
 
